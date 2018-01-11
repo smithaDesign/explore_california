@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {                    /* DEFAULT ALL SETTINGS */
+	margin: 0 auto;
+	padding: 0px;
+	border: none;
+	
+}
+
+
+p {
+	text-align: left;
+	font-family:Geneva, Verdana, Arial, Helvetica,sans-serif;
+	font-size:14px;
+	
+
+}
+
+
+.container {
+	height:auto;
+	width: 50%;
+	background-color:transparent;
+	position: relative;
+	margin: auto;
+
+
+}
+
+
+.header {
+	width: 986px;
+	height: 398px;
+	background-image:url(images/header.png);
+	background-repeat:no-repeat;
+	background-color:transparent;
+}
+
+
+.middle {
+	width: 964px;
+	height: 1300px;
+	background-color:#fce5af;
+	background-image:none;	
+	margin-left: 25px;
+}
+
+.welcome {
+	float:left;
+	width: 600px;
+	height:auto;
+	margin-top:20px;
+	margin-left:10px;
+	margin-right:10px;
+	padding:10px;
+	background-color:#fce5af;
+	font-size:16px;
+	color: #2f2018;
+	line-height:25px;
+}
+
+.about{
+	float:left;
+	width: 600px;
+	height:auto;
+	margin-top:20px;
+	margin-left:10px;
+	margin-right:10px;
+	padding:10px;
+	background-color:#fce5af;
+	line-height: 22px;
+	font-size:16px;
+	color: #2f2018;
+}
+
+
+.servicetimes {
+	float:right;
+	width: 270px;
+	height:130px;
+	margin-top:20px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:60px;
+	text-align:center;
+	color:#fce5af;
+	font-size:16px;
+	font-weight:bold;
+	line-height: 25px;
+	background-image:url(images/ST_back.png);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+.map{
+	float:right;
+	width: 270px;
+	height:300px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:60px;
+	margin-top: 20px;
+	background-image:url(images/map_back.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.right-top {
+	float:right;
+	width: 270px;
+	height:50px;
+	margin-top: 20px;
+	margin-right:10px;
+	border-bottom: 0px;
+	background-image:url(images/service_times.png);
+	background-repeat:no-repeat;
+
+}
+.right-bottom {
+	float: right;
+	height: 30px;
+	width: 250px;
+	background-image:url(images/bottom.png);
+	background-repeat: no-repeat;
+}
+
+.footer { 
+	width: 964px;
+	height:35px;
+	background-image: url(images/footer.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+	margin-left:25px;
+
+}
+.footer_text {
+	width:900px;
+	height:35px;
+	padding-left:75px;
+	padding-top:5px;
+	color: #fce5af;
+}
+	
+
+
+			  
+			  			
+
+
